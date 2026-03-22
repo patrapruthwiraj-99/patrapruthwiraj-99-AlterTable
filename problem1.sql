@@ -1,0 +1,2 @@
+ALTER TABLE site_user
+ADD COLUMN IF NOT EXISTS lastname VARCHAR(100);
